@@ -6,7 +6,7 @@ git pull origin master
 
 # then move to your branch 
 git checkout my_branch 
-git merge --no-commi --no-ff master 
+git merge --no-commit --no-ff master 
 # then resolve conflicts
 
 
