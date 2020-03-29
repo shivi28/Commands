@@ -9,7 +9,8 @@ git checkout my_branch
 git merge --no-commit --no-ff master 
 # then resolve conflicts
 
-**How to rebase your current branch from root branch
+**How to rebase your current branch from root branch**
+
 ```
 # on master branch 
 git checkout -b feature_branch 
