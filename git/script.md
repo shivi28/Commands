@@ -1,6 +1,8 @@
-## to sync your current branch with master 
-# current branch is :: my_branch
+## Git Commands used in day-to-day development
 
+**How to sync your current branch with master**
+```
+# current branch is :: my_branch
 git checkout master 
 git pull origin master 
 
@@ -8,6 +10,7 @@ git pull origin master
 git checkout my_branch 
 git merge --no-commit --no-ff master 
 # then resolve conflicts
+```
 
 **How to rebase your current branch from root branch**
 
