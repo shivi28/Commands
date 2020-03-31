@@ -52,3 +52,13 @@ Solution:
 ```
 chmod 600 abc
 ```
+
+***How to run DockerFile in local to check if azurepiepline is working fine or not***
+```
+dockerfile fails 
+```
+
+Solution:
+```
+docker build . -t "shivani" --build-args SSH_PRIVATE_KEY=/Users/shivani.singhal/.ssh/abc
+```
