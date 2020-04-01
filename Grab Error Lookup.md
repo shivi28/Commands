@@ -60,5 +60,5 @@ dockerfile fails
 
 Solution:
 ```
-docker build . -t "shivani" --build-args SSH_PRIVATE_KEY=/Users/shivani.singhal/.ssh/abc
+docker build . -t "shivani" --build-arg SSH_PRIVATE_KEY=/Users/shivani.singhal/.ssh/abc
 ```
