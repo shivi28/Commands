@@ -1,1 +1,6 @@
-&tbs=qdr:m append this after every URL to get the results in sorted order by time
+To get result in time sorted way :-
+    &tbs=qdr:m append this after every URL to get the results in sorted order by time
+
+To open a notepad in browser
+  1. type data:text/html ,<html contenteditable> in address bar
+  2. use http://a5.gg/
