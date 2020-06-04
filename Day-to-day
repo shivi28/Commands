@@ -7,3 +7,6 @@ To open a notepad in browser
 
 To download books 
     1. libgen.is
+
+To find a file in a linux system
+    1. find . -name "kafka-topics.sh"
