@@ -1,0 +1,98 @@
+
+
+1. Create Topic
+bash bin/kafka-topics.sh --create --zookeeper localhost:2181  --topic my-topic --partitions 2 --replication-factor 1
+
+
+2. Delete Topic
+bash bin/kafka-topics.sh --zookeeper localhost:2181 --delete --topic response_txn_topic
+
+
+3. List all Topics
+bash bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+
+4. Console consumer
+bash bin/kafka-console-consumer.sh --bootstrap-server localhost:9092  --topic received_txn_topic --from-beginning
+
+
+5. Console producer
+bash bin/kafka-console-producer.sh --broker-list localhost:9092 --topic my-topic
+
+
+6. Latest Offset
+bash bin/kafka-run-class.sh kafka.tools.GetOffsetShell --broker-list localhost:9092 --topic response_txn_topic
+
+
+7. Describe Topic
+
+
+
+8. Get list of consumer groups
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
