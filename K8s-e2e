@@ -1,0 +1,26 @@
+Prerequisite :-
+Check virtualisation is enabled on your mac or not 
+'sysctl -a | grep -E --color 'machdep.cpu.features|VMX'' //Now VMX will come in colored format as an output
+
+Steps to run a single node cluster use minikube
+1. Install kubectl 
+2. Install minikube 
+  'brew install minikube'
+  check 'minikube version' - if its not 1.11.0 then do 
+  'brew upgrade minikube' so the new version will be 1.11.0
+  
+3. Run cluster
+  do 'minikube start --driver=hyperkit' // hyperkit will work if you have docker desktop running in local
+  
+4. Confirm installation
+   'minikube status'
+   Output:
+    host: Running
+    kubelet: Running
+    apiserver: Running
+    kubeconfig: Configured
+
+5. To see minikube dashboard 
+  'minikube dashboard'
+  
+6. 
