@@ -10,3 +10,6 @@ To download books
 
 To find a file in a linux system
     1. find . -name "kafka-topics.sh"
+    
+To Delete many files from a folder in one go
+    1. for f in *.zip; do rm "$f"; done
