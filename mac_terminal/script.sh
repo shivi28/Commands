@@ -5,3 +5,8 @@ source ~/.bash_profile
 
 ### to put system on sleep
 control+command+Q
+
+### How to set alias
+vim ~/.zshrc
+alias k="kubectl"
+source ~/.zshrc
