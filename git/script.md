@@ -22,7 +22,7 @@ git rebase -i origin/master~2
 git push origin feature_branch_name --force
 ```
 
-**How to fetch all branches from git
+**How to fetch all branches from git**
 ```
 git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
 ```
